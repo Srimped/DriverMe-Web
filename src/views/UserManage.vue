@@ -1,14 +1,13 @@
 <template>
   <div>
     <DashboardLayout>
-      Hello
+      User
     </DashboardLayout>
   </div>
 </template>
 
 <script setup>
 import DashboardLayout from '../layouts/DashboardLayout.vue';
-
 
 
 </script>

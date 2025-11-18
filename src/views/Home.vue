@@ -1,6 +1,6 @@
 <template>
   <div>
-    Home
+    <a href="/login">Login</a>
   </div>
 </template>
 

@@ -11,6 +11,7 @@ const routes = [
   {path: '/driver', component: () => import('../views/DriverManage.vue')},
 
   {path: '/user', component: () => import('../views//UserManage.vue')},
+  {path: '/user/:id', component: () => import('../views//UserDetail.vue')},
 
 ]
 

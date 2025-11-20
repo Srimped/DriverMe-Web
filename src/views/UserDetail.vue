@@ -16,7 +16,7 @@
         </div>
 
         <!-- Form when data is loaded -->
-        <form v-else method="PUT" class="max-w-3xl mx-auto p-6 lg:p-10" @submit.prevent="updateUser">
+        <form v-else class="max-w-3xl mx-auto p-6 lg:p-10" @submit.prevent="updateUser">
             <div class="border-b border-gray-900/10 pb-12">
                 <h2 class="text-xl font-bold text-gray-700">Personal Information (ID: {{ user.id }})</h2>
                 <p class="mt-1 text-sm text-gray-500">View and update user details.</p>

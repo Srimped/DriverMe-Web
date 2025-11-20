@@ -9,9 +9,14 @@ const routes = [
   {path: '/dashboard', component: () => import('../views/Dashboard.vue')},
 
   {path: '/driver', component: () => import('../views/DriverManage.vue')},
+  {path: '/driver/:id', component: () => import('../views/DriverDetail.vue')},
 
   {path: '/user', component: () => import('../views/UserManage.vue')},
   {path: '/user/:id', component: () => import('../views/UserDetail.vue')},
+
+  {path: '/app', component: () => import('../views/AppManage.vue')},
+  {path: '/app/:id', component: () => import('../views/SettingDetail.vue')},
+
 
 ]
 

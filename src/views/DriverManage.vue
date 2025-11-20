@@ -47,7 +47,7 @@ const loadDrivers = () => {
   .then(res => res.json())
   .then(data => {
     if (data && data.drivers) {
-        drivers.value = data.driver; 
+        drivers.value = data.drivers
     } else {
         console.error("Response data is missing the 'drivers' array:", data);
     }

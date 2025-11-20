@@ -14,16 +14,12 @@
         <a href="\user" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">User</a>
       </div>
 
-      <div class="mt-10"><h3 class="mx-6 mb-2 text-xs text gray-400 uppercase tracking-widest">Booking</h3>
-        <a href="" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Trip</a>
-        <a href="" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Pricing</a>
-        <a href="" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Voucher</a>
-        <a href="" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Disputes</a>
-        <a href="" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Reports</a>
+      <div class="mt-10"><h3 class="mx-6 mb-2 text-xs text gray-400 uppercase tracking-widest">Trip</h3>
+        <a href="" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Booking</a>
       </div>
 
       <div class="mt-10"><h3 class="mx-6 mb-2 text-xs text gray-400 uppercase tracking-widest">Setting</h3>
-        <a href="" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Security</a>
+        <a href="\app" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Application</a>
         <a href="\login" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Logout</a>
       </div>
     </div>

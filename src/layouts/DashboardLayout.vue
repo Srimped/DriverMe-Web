@@ -15,12 +15,12 @@
       </div>
 
       <div class="mt-10"><h3 class="mx-6 mb-2 text-xs text gray-400 uppercase tracking-widest">Trip</h3>
-        <a href="" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Booking</a>
+        <a href="\booking" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Booking</a>
       </div>
 
       <div class="mt-10"><h3 class="mx-6 mb-2 text-xs text gray-400 uppercase tracking-widest">Setting</h3>
         <a href="\app" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Application</a>
-        <a href="\login" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition">Logout</a>
+        <a @click="logout" class="flex items-center mx-5 px-6 py-2.5 rounded-md text-gray-500 hover:text-orange-600 hover:bg-gray-700 transition cursor-pointer" >Logout</a>
       </div>
     </div>
   <div>
@@ -31,3 +31,23 @@
 
   </div>
 </template>
+
+<script setup>
+import { onBeforeMount } from 'vue';
+import { auth } from '../store/Auth';
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
+
+const logout = () => {
+  auth.value = null;
+  router.push('/login')
+}
+
+
+onBeforeMount(() => {
+  if (!auth.value) {
+    router.push('/login')
+  }
+})
+</script>

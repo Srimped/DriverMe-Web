@@ -27,21 +27,21 @@
 
             <div class="sm:col-span-3">
               <label class="block text-sm font-medium text-gray-700">Key</label>
-              <input class="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70"
+              <input class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 border border-gray-300"
                      type="text" 
                      v-model="setting.key">
             </div>
 
             <div class="sm:col-span-3">
               <label class="block text-sm font-medium text-gray-700">Value</label>
-              <input class="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70"
+              <input class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 border border-gray-300"
                      type="text" 
                      v-model="setting.value">
             </div>
 
             <div class="sm:col-span-3">
               <label class="block text-sm font-medium text-gray-700">Description</label>
-              <textarea v-model="setting.des" rows="4" cols="50" class="rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70">{{ setting.des }}</textarea>
+              <textarea v-model="setting.des" rows="4" cols="50" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 border border-gray-300">{{ setting.des }}</textarea>
             </div>
 
           </div>

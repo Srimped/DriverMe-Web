@@ -211,6 +211,7 @@ const fetchUser = async () => {
             user.value = {
                 id: data.user.id,
                 email: data.user.email,
+                password: data.user.password,
                 name: data.user.name, 
                 phone: data.user.phone || '',
                 avatar_url: data.user.avatar_url || '',

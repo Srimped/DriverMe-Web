@@ -14,6 +14,9 @@ const routes = [
   {path: '/user', component: () => import('../views/UserManage.vue')},
   {path: '/user/:id', component: () => import('../views/UserDetail.vue')},
 
+  {path: '/booking/', component: () => import('../views/BookingManage.vue')},
+  {path: '/booking/:id', component: () => import('../views/BookingDetail.vue')},
+
   {path: '/app', component: () => import('../views/AppManage.vue')},
   {path: '/app/:id', component: () => import('../views/SettingDetail.vue')},
 

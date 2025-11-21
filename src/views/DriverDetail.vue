@@ -27,7 +27,7 @@
             <!-- USER FULL NAME -->
             <div class="sm:col-span-3">
               <label class="block text-sm font-medium text-gray-700">Full name</label>
-              <input class="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70"
+              <input class="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70 cursor-not-allowed"
                      type="text" 
                      :value="user.name"
                      disabled>
@@ -36,7 +36,7 @@
             <!-- USER PHONE -->
             <div class="sm:col-span-3">
               <label class="block text-sm font-medium text-gray-700">Phone</label>
-              <input class="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70"
+              <input class="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70 cursor-not-allowed"
                      type="text"
                      :value="user.phone"
                      disabled>
@@ -45,7 +45,7 @@
             <!-- USER EMAIL -->
             <div class="sm:col-span-3">
               <label class="block text-sm font-medium text-gray-700">Email</label>
-              <input class="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70"
+              <input class="block w-full rounded-md bg-gray-100 px-3 py-1.5 text-base text-gray-900 border border-gray-300 opacity-70 cursor-not-allowed"
                      type="text"
                      :value="user.email"
                      disabled>
